@@ -51,7 +51,7 @@ for index, dessert in enumerate(desserts, start=1):
 dessert = input("What dessert would you like? ")
 customer_order_list.append(desserts[int(dessert) - 1])
 
-# Print all of the user's choices
+# Print all the user's choices
 print(f"\nYou ordered:")
 for customer_order in customer_order_list:
     print(customer_order["name"])
