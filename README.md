@@ -49,8 +49,22 @@ Git is a distributed version control system.
 ### Common Workflow Commands
 
 ```
-git init                # Initialize a new Git repo
-git add .               # Stage all modified files
-git commit -m "message" # Commit your changes
-git push                # Push changes to remote repo
-git pull                # Update local repo with remote changes
+git init                 # Initialize a new Git repo
+git add .                # Stage all modified files
+git commit -m "message"  # Commit your changes
+git push                 # Push changes to remote repo
+git pull                 # Update local repo with remote changes
+git log                  # View commit history
+git diff <id> <id>       # View the difference between two commits
+git checkout <id>        # SAFE revert locally to a previous commit to review files
+git checkout <branch>    # Switch to a different branch
+git reset --hard <id>    # DANGEROUS revert to previous commit id's state and destroy all changes since
+```
+
+### Branching
+
+Branching in Git lets developers separate from the main line of development to continue to work independently without interfering with each other's changes.
+
+Branching allows developers to work on new features or bug fixes in isolation from the main codebase.
+
+Branching also allows developers to experiment with new ideas or approaches without the risk of affecting the main branch if something goes wrong.
