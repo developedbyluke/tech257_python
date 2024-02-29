@@ -70,7 +70,7 @@ Branching also allows developers to experiment with new ideas or approaches with
 
 ## Difference Between Git and GitHub
 
-While Git and GitHub are often mentioned together, they serve different roles in the development process. Git is a version control system that allows you to track changes, revert to previous stages, and collaborate on code. GitHub, on the other hand, is a hosting service for Git repositories, providing a web-based graphical interface. It offers several collaboration features such as bug tracking, feature requests, task management, and continuous integration.
+While Git and GitHub are often mentioned together, they serve different roles in the development process. Git is a version control system that allows you to track changes, revert to previous stages, and collaborate on code. GitHub is a hosting service for Git repositories, providing a way to manage remote repositories. It has many features such as bug tracking, feature requests, task management, and continuous integration.
 
 **Git**  is a tool you install locally on your machine to manage your codebase, while **GitHub**  is a service you use online to store your Git-managed projects and collaborate with others.
 ### Syncing Local and Remote Repositories
