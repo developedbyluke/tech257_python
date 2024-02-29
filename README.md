@@ -59,6 +59,7 @@ git diff <id> <id>       # View the difference between two commits
 git checkout <id>        # SAFE revert locally to a previous commit to review files
 git checkout <branch>    # Switch to a different branch
 git reset --hard <id>    # DANGEROUS revert to previous commit id's state and destroy all changes since
+git rm --cached          # Remove something from the git cache
 ```
 
 ### Branching
