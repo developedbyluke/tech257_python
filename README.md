@@ -181,38 +181,48 @@ An API is considered RESTful when it adheres to the following REST guidelines:
 
 ### What is HTTP? (what does it stand for and what is it used for? What is HTTPS?)
 
-HTTP: Hypertext Transfer Protocol is a protocol for fetching resources such as HTML documents. It is a client-server protocol meaning requests are initiated by the recipient, usually the web browser.
+**HTTP**: Hypertext Transfer Protocol is a protocol for fetching resources such as HTML documents. It is a client-server protocol meaning requests are initiated by the recipient, usually the web browser.
 
-HTTPS: Hypertext Transfer Protocol Secure is the secure version of HTTP. HTTPS encrypts the data in transit to increase security and privacy. It is the primary protocol used to send data between a web browser and a website and is especially important when handling sensitive data such as login credentials and payment information.
+**HTTPS**: Hypertext Transfer Protocol Secure is the secure version of HTTP. HTTPS encrypts the data in transit to increase security and privacy. It is the primary protocol used to send data between a web browser and a website and is especially important when handling sensitive data such as login credentials and payment information.
 
 ### HTTP request structure
 
-URL: The address of the resource being requested.
+![](https://i.ibb.co/Z8P7Fjj/image.png)
 
-Request Verb: Includes the method (GET, POST, etc.)
+**URL**: The address of the resource being requested.
 
-Headers: Key-value pairs providing information about the request.
+**Request Verb**: Includes the method (GET, POST, etc.)
 
-Body: Optional data sent with POST and PUT requests.
+**Headers**: Key-value pairs providing information about the request.
+
+**Body**: Optional data sent with POST and PUT requests.
 
 ### HTTP Response Structure
 
-Status Code: A code that indicates whether the request was successful or not, e.g. 200, 404, etc.
+![](https://i.ibb.co/HFW5Cv1/image.png)
 
-Status Message: There could also be a message that provides more information, e.g. "OK", "Not Found", etc.
+**Status Code**: A code that indicates whether the request was successful or not, e.g. 200, 404, etc.
 
-Headers: Key-value pairs providing information about the response.
+**Status Message**: There could also be a message that provides more information, e.g. "OK", "Not Found", etc.
 
-Body: The data being sent back to the client, which could be the requested resource or error details.
+**Headers**: Key-value pairs providing information about the response.
+
+**Body**: The data being sent back to the client, which could be the requested resource or error details.
 
 ### What are the 5 HTTP verbs and what do they do?
 
-GET → Retrieves data from the server.
+**GET** → Retrieves data from the server.
 
-POST → Sends data to the server to be processed. Typically used to submit form data or upload a file in order to create new resources on the server.
+**POST** → Sends data to the server to be processed. Typically used to submit form data or upload a file in order to create new resources on the server.
 
-PUT → Updates data on the server.
+**PUT** → Updates data on the server.
 
-PATCH → Applies partial modifications to data on the server.
+**PATCH** → Applies partial modifications to data on the server.
 
-DELETE → Removes data from the server.
+**DELETE** → Removes data from the server.
+
+### Stateless vs Stateful
+
+Stateless: Each request from client to server must contain all the information needed to understand and complete the request. There is no session information stored on the server.</br>Example: HTTP APIs where each request contains user authentication data.
+
+Stateful: The server stores session information across requests.</br>Example: Traditional web applications where the server tracks user sessions.
