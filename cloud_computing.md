@@ -91,3 +91,7 @@ DevOps integrates with cloud computing, using cloud resources for automation, sc
 - **Storage**: Costs for data storage and data transfer in/out of the cloud.
 - **Network**: Charges for data transfer and operational bandwidth.
 - **Services**: Costs associated with using higher-level services like databases, machine learning, and application monitoring.
+
+## What is redundancy in cloud computing?
+
+Redundancy means having backup systems in place, such as utilising extra servers or data storage. This ensures that if one system fails, another can immediately take over, minimizing downtime and keeping services running smoothly for users around the world.
